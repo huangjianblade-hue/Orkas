@@ -2,9 +2,9 @@
 
 **開源的 AI 智能體團隊，就在你的桌面上——把目標變成交付成果，並持續推進。**
 
-Orkas 是一個開源（MIT）、本地優先的多智能體桌面應用，也是一支協同工作的 AI 助手團隊。把要做的事告訴**指揮官**（Commander）：很多工它自己就能直接完成；遇到更大的工作，它會拆分步驟，調動專業智能體，以及你已在使用的程式設計與個人智能體——**Claude Code、Codex、OpenCode、OpenClaw 和 Hermes-Agent**——一起協作完成。
+Orkas 是一個開源（MIT）、本地優先的多智能體桌面應用，也是一支協同工作的 AI 助手團隊。把要做的事告訴**指揮官**（Commander）：許多任務它自己就能完成；遇到更大的工作，它會拆分步驟，調動專業智能體，以及你已在使用的程式設計與個人智能體——**Claude Code、Codex、OpenCode、OpenClaw 和 Hermes-Agent**——一起協作完成。
 
-Orkas 為持續推進的專案而設計，而不只是回答一次提問。**專案**彙集目標、規則、記憶和檔案，每次新對話都能接著上次繼續；**待辦事項**把工作分給人和智能體；**Auto-advance**（自動推進）讓團隊自己接手下一項待辦事項；**定時自動化**按小時、每天、每週或每月重複例行工作。所有資料都儲存在你的電腦上，完成的成果交回給你稽核——生意上需要持續推進的事，可以放心交給 Orkas。
+Orkas 為持續推進的專案而設計，而不只是回答一次提問。**專案**彙集目標、規則、記憶和檔案，每次新對話都能接著上次繼續；**待辦事項**把工作分給人和智能體；**Auto-advance**（自動推進）讓團隊自己接手下一項待辦事項；**定時自動化**按小時、每天、每週或每月重複例行工作。所有資料都儲存在你的電腦上，完成的成果交回給你審閱——生意上需要持續推進的事，可以放心交給 Orkas。
 
 **[⬇ 下載 Orkas：macOS 與 Windows](https://orkas.ai/download/?source=gh-orkas&entry_point=github_readme&download=1)** —— 免費使用，內建 Orkas 模型贈送 500 積分，開始使用無需 API Key。也可以用自己的 Key：Claude · OpenAI · Gemini · DeepSeek · Kimi · GLM · Qwen · MiniMax · Doubao，或接入本地 OpenAI 相容模型端點。
 
@@ -36,7 +36,7 @@ https://github.com/user-attachments/assets/4f8b16c8-a192-45a4-b19f-80e8d02c3dab
 - **電商工作** —— 5 個電商智能體負責選品、商品文案、評價分析、經營分析與商品運營
 - **需要多個智能體配合的複雜任務** —— 指揮官拆分任務，把每一部分交給合適的智能體，再把結果整合起來；比如一次市場調研，最後交付報告、幻燈片和釋出影片
 
-16 個專業智能體隨應用內建，各有自己的技能、記憶和工具。[智能體庫](https://orkas.ai/views/marketplace/gs/agents/?source=gh-orkas)中有 30+ 個智能體可供選擇；也可以描述所需角色，讓指揮官為你建立自定義智能體。
+16 個專業智能體隨應用內建，各有自己的技能、記憶和工具。[智能體庫](https://orkas.ai/views/marketplace/gs/agents/?source=gh-orkas)中有 30+ 個智能體可供選擇；也可以描述所需角色，讓指揮官為你建立自訂智能體。
 
 <details>
 <summary><b>全部 16 個內建智能體</b></summary>
@@ -55,7 +55,7 @@ https://github.com/user-attachments/assets/4f8b16c8-a192-45a4-b19f-80e8d02c3dab
 | 開發與辦公 | **ProductDeveloper** | 理解程式碼倉庫，落實 PRD、修復缺陷、重構和審查程式碼，交付可驗證的結果 |
 | | **OfficeWorker** | 建立、編輯、檢查和交付 Word、Excel、PowerPoint 與 PDF，支援單份或批次處理 |
 | 電商 | **ECommerceResearcher** | 按預算、市場和採購限制篩選產品，給出候選、淘汰理由和驗證計劃 |
-| | **ECommerceWriter** | 按品牌語氣撰寫標題、詳情頁、FAQ、圖片文案與影片指令碼 |
+| | **ECommerceWriter** | 按品牌語氣撰寫標題、詳情頁、FAQ、圖片文案與影片腳本 |
 | | **ECommerceReviewer** | 分析評價與口碑，歸納客戶主題、差評根因和改進優先順序 |
 | | **ECommerceAnalyzer** | 從匯出檔案核對銷售、利潤、廣告、退款與庫存指標，給出經營建議 |
 | | **ECommerceOperator** | 規劃商品、價格、促銷與庫存調整，僅透過你已連線的工具執行 |
@@ -72,7 +72,7 @@ https://github.com/user-attachments/assets/4f8b16c8-a192-45a4-b19f-80e8d02c3dab
 
 > “參考 reference.mp4 做一條 30 秒豎屏宣傳片，保留它的鉤子、字型風格和節奏，換成我的產品與錄屏。先給我看拆解和製作方案。”
 
-需要提供智能體可讀取的影片檔案，暫未內建社交平臺分享連結下載；不保證精確運鏡、真人表演或逐幀還原。詳見[參考復刻工作流](./resources/builtin/marketplace/agents/79df9cc89f5f/skills/video-craft/references/reference-recreation.md)。
+需要提供智能體可讀取的影片檔案，暫未內建社群平台分享連結下載；不保證精確運鏡、真人表演或逐幀還原。詳見[參考影片重製流程](./resources/builtin/marketplace/agents/79df9cc89f5f/skills/video-craft/references/reference-recreation.md)。
 
 ---
 
@@ -83,12 +83,12 @@ https://github.com/user-attachments/assets/4f8b16c8-a192-45a4-b19f-80e8d02c3dab
 - **專案** —— 目標與規則、記憶、檔案隨專案共享，每個新對話都能接著做，不必從頭交代背景。
 - **待辦事項與 Auto-advance** —— 專案中的待辦事項可交給人或智能體；開啟自動推進後，團隊會自行接手下一項工作，並將完成的成果交回給你稽核。
 - **定時自動化** —— 按小時、每天、每週或每月執行任務。Orkas 在你的電腦上執行；從 1.9 起，電腦喚醒或應用啟動後，每個自動化會補跑 12 小時內最近一次錯過的任務。
-- **聯結器** —— 接入 Gmail、Google Calendar、Sheets、Drive、Notion、Slack、Shopify、Stripe 等服務。預設情況下，Orkas 會在傳送、發帖或刪除前詢問你。
+- **聯結器** —— 接入 Gmail、Google Calendar、Sheets、Drive、Notion、Slack、Shopify、Stripe 等服務。預設情況下，Orkas 會在傳送、發文或刪除前詢問你。
 - **應用** —— 描述你需要的工具，Orkas 就能將它做成桌面應用內的本地應用；在安裝版中，付費會員還可以將其釋出為帶公開連結的網頁應用。
-- **共享專案**（安裝版）—— 邀請同事或虛擬助理加入，將每條待辦事項分配給人或智能體。
+- **共用專案**（安裝版）—— 邀請同事或虛擬助理加入，將每條待辦事項分配給人或智能體。
 
 > [!NOTE]
-> 共享專案、雲同步和網頁應用釋出目前只在安裝版中提供，開源版暫不支援。需要這些功能，可以 **[下載 Orkas：macOS 與 Windows](https://orkas.ai/download/?source=gh-orkas&entry_point=github_readme&download=1)**（免費，贈送 500 積分）。
+> 共用專案、雲端同步和發布網頁應用程式目前只在安裝版中提供，開源版暫不支援。需要這些功能，可以 **[下載 Orkas：macOS 與 Windows](https://orkas.ai/download/?source=gh-orkas&entry_point=github_readme&download=1)**（免費，贈送 500 積分）。
 
 ---
 
@@ -103,7 +103,7 @@ Orkas 將你已安裝的 CLI 智能體作為本地會話執行，與內建專業
 ## 為什麼選擇 Orkas
 
 - **會規劃、分工，也會親自完成工作的指揮官** —— 拆解目標，選擇合適的智能體、技能、聯結器與工具；沒有更合適的專業智能體時，親自處理分析、寫作、研究和檔案工作。
-- **本地優先** —— 對話、檔案、知識庫和自定義智能體預設儲存在本機，安裝版可選擇開啟雲同步。使用自己的 Key 時，模型呼叫從本機直連服務商；內建 Orkas 模型透過 Orkas 託管服務執行。
+- **本地優先** —— 對話、檔案、知識庫和自訂智能體預設儲存在本機，安裝版可選擇開啟雲端同步。使用自己的 Key 時，模型呼叫從本機直連服務商；內建 Orkas 模型透過 Orkas 託管服務執行。
 - **模型隨時可切換** —— 指揮官與內建智能體共用一個模型設定，可選擇內建 Orkas 模型、自有服務商或本地端點；外接 CLI 智能體保留各自的模型設定。
 - **能積累經驗的智能體** —— 各自保留私有技能與記憶；後臺覆盤在應用空閒時檢查新活動，可改進自我評估、可複用方法與學習到的技能。
 - **開源、可審查** —— MIT 許可證，可以檢視 Orkas、智能體與技能的具體實現。
@@ -116,13 +116,13 @@ Orkas 將你已安裝的 CLI 智能體作為本地會話執行，與內建專業
 
 | | 安裝版（推薦） | 原始碼版 |
 | --- | --- | --- |
-| 平臺 | macOS 12+（Apple Silicon 與 Intel）、Windows 10+ | macOS、Windows、glibc 2.34+ Linux x64/arm64 |
-| 賬號 | 登入即送 500 積分 | 無需賬號 |
+| 平台 | macOS 12+（Apple Silicon 與 Intel）、Windows 10+ | macOS、Windows、glibc 2.34+ Linux x64/arm64 |
+| 帳號 | 登入即送 500 積分 | 無需帳號 |
 | 模型 | 內建 Orkas 模型，或使用自己的 Key | 自己的 Key，或本地模型端點 |
 | 另含 | 專案協作、應用釋出、雲端同步等 | — |
 | 獲取方式 | **[下載 Orkas](https://orkas.ai/download/?source=gh-orkas&entry_point=github_readme&download=1)** | [快速開始](#快速開始) |
 
-下載連結會識別你的系統，並開始下載對應安裝包。
+下載連結會識別你的系統，並開始下載對應安裝套件。
 
 ---
 
@@ -149,7 +149,7 @@ Orkas 將你已安裝的 CLI 智能體作為本地會話執行，與內建專業
 | **Manus** | 預設在 Manus 雲端規劃並執行任務的 AI 智能體。桌面應用 Manus Studio（macOS 和 Windows）也可以在你選擇的資料夾中工作，但任務仍在雲端規劃。 | Manus 的開源（MIT）替代方案。智能體在你的電腦上執行，資料預設儲存在本地，模型可以用內建 Orkas 模型、自己的服務商 Key 或本地端點，並用專案、待辦事項和自動化讓工作持續推進。代價是 Orkas 需要電腦保持喚醒，而 Manus 的雲端任務可以不依賴你的電腦繼續執行。[開源 Manus 替代方案 →](https://orkas.ai/open-source-manus-alternative/?source=gh-orkas) |
 | **LangChain** | 面向開發者的 LLM 應用與智能體框架，透過程式碼嵌入 Python/JS 應用。 | Orkas 是透過對話指揮的桌面應用，資料預設儲存在本地。 |
 | **CrewAI** | 透過 Python 程式碼定義團隊與角色、編排自治智能體的框架。 | Orkas 將多智能體編排做成桌面應用，內建專案、待辦事項、自動化與各智能體的經驗積累。 |
-| **OpenClaw** | 提供訊息渠道整合、多智能體路由和子智能體能力的個人智能體平臺。 | Orkas 提供面向成品交付的桌面工作區，內建專業智能體，並協調 Claude Code、Codex、OpenCode 等 CLI 智能體；OpenClaw 也可作為其中一員接入。 |
+| **OpenClaw** | 提供訊息渠道整合、多智能體路由和子智能體能力的個人智能體平台。 | Orkas 提供面向成品交付的桌面工作區，內建專業智能體，並協調 Claude Code、Codex、OpenCode 等 CLI 智能體；OpenClaw 也可作為其中一員接入。 |
 | **Hermes-Agent** | Nous Research 的自我改進智能體，具備記憶與技能，提供 CLI、訊息閘道器和桌面版。 | Orkas 由指揮官協調多個專業智能體與外部 CLI 智能體，Hermes-Agent 也可作為其中一員接入。 |
 
 **適合你，如果你希望**：讓智能體團隊協作，跨天持續推進工作，並將資料、Key 與智能體預設儲存在自己的硬碟上。
@@ -164,9 +164,9 @@ Orkas 將你已安裝的 CLI 智能體作為本地會話執行，與內建專業
 
 ## 快速開始
 
-想直接用安裝包？見上方 [下載](#下載)。以下是從原始碼執行的方式 —— 也是目前在 Linux 上執行 Orkas 的方式：
+想直接用安裝套件？見上方 [下載](#下載)。以下是從原始碼執行的方式 —— 也是目前在 Linux 上執行 Orkas 的方式：
 
-**環境要求**：Node 22.12+ · macOS / Windows 10+ / 基於 glibc 2.34+ 的 Linux x64 或 arm64。建議保留 Python 3 與 C/C++ 構建工具鏈，用於少數原生模組需要原始碼編譯的兜底場景。
+**環境要求**：Node 22.12+ · macOS / Windows 10+ / 基於 glibc 2.34+ 的 Linux x64 或 arm64。建議保留 Python 3 與 C/C++ 建置工具鏈，以備少數原生模組需要從原始碼編譯時使用。
 
 ```bash
 git clone https://github.com/Orkas-AI/Orkas.git
@@ -177,7 +177,7 @@ run.cmd            # Windows
 
 Linux 原始碼執行需要 glibc 2.34+，不支援 Alpine 及其他基於 musl 的發行版。本地語音轉寫會在首次原始碼啟動時下載並校驗目標架構對應的 whisper.cpp 執行時及多語言模型。
 
-`run.sh` / `run.cmd` 會在首次啟動時安裝 lockfile 固定的 npm 依賴，並準備固定版本的 Python、uv、Node、嵌入模型（約 95 MB）、OfficeCLI、FFmpeg、whisper.cpp 與多語言語音模型。Linux 啟動還會在 Electron ABI 下驗證平臺原生模組及 Whisper 執行時後再開啟應用。OCR 與 Skill 專屬 Python 包會在首次使用對應功能時安裝到隔離的本地環境。首次啟動會在 `~/.orkas/`（macOS / Linux）或 `<最小的非系統盤>:\.orkas\`（Windows）下建立工作區。隨後進入 **設定 → AI 服務商** 配置 API key 或 OAuth。
+`run.sh` / `run.cmd` 會在首次啟動時安裝 lockfile 固定的 npm 依賴，並準備固定版本的 Python、uv、Node、嵌入模型（約 95 MB）、OfficeCLI、FFmpeg、whisper.cpp 與多語言語音模型。Linux 啟動還會在 Electron ABI 下驗證平台原生模組及 Whisper 執行時後再開啟應用。OCR 與 Skill 專屬 Python 套件會在首次使用對應功能時安裝到隔離的本地環境。首次啟動會在 `~/.orkas/`（macOS / Linux）或 `<最小的非系統盤>:\.orkas\`（Windows）下建立工作區。隨後進入 **設定 → AI 服務商** 配置 API key 或 OAuth。
 
 遇到原生依賴錯誤時，請使用 Node.js 24 LTS（最低 22.12.0），在此原始碼目錄執行
 `npm run native:repair`。它會恢復可選依賴、修復 Electron 對應的 SQLite，並驗證 SQL、
@@ -214,7 +214,7 @@ sqlite-vec，並準備隨包 Node、在獨立程序中驗證 sharp 後才報告�
 
 ### 執行保護與恢復
 
-會話鎖和併發限制控制同時執行的工作量。工具輪數預算、進度檢查點、重複呼叫檢查和分階段的空閒監測，共同約束停滯或重複執行的任務。具名智能體任務可以單獨跟蹤和取消；任務已接收或已排隊，不會被當作已經完成。
+會話鎖和併發限制控制同時執行的工作量。工具輪數預算、進度檢查點、重複呼叫檢查和分階段的空閒監測，共同約束停滯或重複執行的任務。具名智能體任務可以單獨追蹤和取消；任務已接收或已排隊，不會被當作已經完成。
 
 參見[角色預算](./src/main/features/group_chat/actor-budgets.ts)、[智能體執行時](./src/core-agent/src/agent/runner.ts)和[桌面模型適配層](./src/main/model/core-agent/client.ts)。
 
@@ -241,10 +241,10 @@ Orkas 是開源（MIT）、本地優先的多智能體桌面應用。指揮官�
 可以。把 PDF 和文件加入本地資料庫，Orkas 可搜尋這些檔案，並在回答中引用來源段落，方便開啟原文核對。索引在本機建立。
 
 **能使用 Ollama、LM Studio 等本地模型嗎？**
-可以。開啟 **賬號設定 → 模型 → 對話 → 新增模型 → 自定義**，選擇 **OpenAI 相容** 或 **Anthropic 相容**，填寫基礎地址、準確的模型 ID 和 API Key，然後在任務的模型控制元件中選擇已儲存的模型。
+可以。開啟 **帳號設定 → 模型 → 對話 → 新增模型 → 自訂**，選擇 **OpenAI 相容** 或 **Anthropic 相容**，填寫基礎網址、準確的模型 ID 和 API Key，然後在任務的模型選單中選擇已儲存的模型。
 
 **API Key 和資料存在哪裡？**
-預設儲存在本機。你自己的服務商 Key 在本地加密儲存，並排除在雲同步之外。使用自己的 Key 時，模型呼叫從本機直連服務商；內建 Orkas 模型使用 Orkas 託管服務。安裝版的可選雲同步和共享專案會將所選資料儲存在 Orkas 伺服器上。[安全與資料處理 →](https://orkas.ai/security/?source=gh-orkas)
+資料與金鑰預設儲存在本機。你自己的服務商金鑰會在本機加密儲存，不會同步到雲端。使用自己的 Key 時，模型呼叫從本機直連服務商；內建 Orkas 模型使用 Orkas 託管服務。安裝版的可選雲端同步和共用專案會將所選資料儲存在 Orkas 伺服器上。[安全與資料處理 →](https://orkas.ai/security/?source=gh-orkas)
 
 **Orkas 能完全離線使用嗎？**
 原始碼版配合本地模型端點可以完全離線執行。安裝版需要登入，雲端模型呼叫需要聯網。
@@ -253,22 +253,22 @@ Orkas 是開源（MIT）、本地優先的多智能體桌面應用。指揮官�
 不會。Auto-advance 和定時自動化需要電腦保持喚醒，且 Orkas 正在執行。從 1.9 起，電腦喚醒或應用啟動後，每個自動化會補跑 12 小時內最近一次錯過的任務。
 
 **能做應用和釋出應用嗎？**
-可以。在 Orkas 內執行的本地應用免費。將網頁應用釋出為公開連結需要付費會員，Lite、Pro、Max 分別可釋出 5、8、15 個；公開網頁應用不包含 Orkas 桌面應用內的全部能力。
+可以。在 Orkas 內執行的本地應用免費。將網頁應用程式發布為公開連結需要付費會員，Lite、Pro、Max 分別可釋出 5、8、15 個；公開網頁應用不包含 Orkas 桌面應用內的全部能力。
 
-**需要 Orkas 賬號嗎？**
-安裝版首次啟動時需要登入。本倉庫的原始碼版沒有賬號模組，啟動後直接進入應用。
+**需要 Orkas 帳號嗎？**
+安裝版首次啟動時需要登入。本倉庫的原始碼版沒有帳號模組，啟動後直接進入應用。
 
 **能驅動 Claude Code 等 CLI 智能體嗎？**
-可以。Orkas 能將五個外部 CLI 智能體作為本地子程序執行：Claude Code、Codex、OpenCode、OpenClaw 和 Hermes-Agent；也可接入 HyperFrames 等開源工具，在同一個對話中協調工作。
+可以。Orkas 能將五個外部 CLI 智能體作為本機子行程執行：Claude Code、Codex、OpenCode、OpenClaw 和 Hermes-Agent；也可接入 HyperFrames 等開源工具，在同一個對話中協調工作。
 
 **和 Claude Code、Codex、CrewAI、LangChain 有什麼不同？**
 Claude Code 和 Codex 是程式設計智能體，Orkas 可以把它們都作為團隊成員來執行，不必二選一；CrewAI 和 LangChain 是程式碼優先的框架。Orkas 是開源桌面應用，由指揮官協調專業智能體與 CLI 智能體，可選擇不同模型服務商，資料與 Key 預設儲存在本地。[檢視完整對比](https://orkas.ai/compare/?source=gh-orkas)。
 
-**支援哪些平臺？**
-macOS 12+（Apple Silicon 與 Intel）和 Windows 10+ 提供安裝包。glibc 2.34+ Linux x64/arm64 目前透過原始碼執行，尚無安裝包；首次啟動會準備固定版本的 whisper.cpp 執行時，支援本地語音轉寫。不支援 Alpine 等基於 musl 的發行版。原始碼啟動需要 Node 22.12+；只有原生 npm 包缺少相容的預編譯檔案、需要本地重建時，才需要 Python 3 和 C/C++ 構建工具鏈。
+**支援哪些平台？**
+macOS 12+（Apple Silicon 與 Intel）和 Windows 10+ 提供安裝套件。glibc 2.34+ Linux x64/arm64 目前透過原始碼執行，尚無安裝套件；首次啟動會準備固定版本的 whisper.cpp 執行時，支援本地語音轉寫。不支援 Alpine 等基於 musl 的發行版。原始碼啟動需要 Node 22.12+；只有原生 npm 套件缺少相容的預編譯檔案、需要本地重建時，才需要 Python 3 和 C/C++ 建置工具鏈。
 
 **Orkas 免費且開源嗎？**
-是的，應用採用 MIT 許可證，可免費使用。安裝版贈送 500 積分；付費會員每月 $11.99 起，增加月度積分、雲同步、更多共享專案和網頁應用釋出能力。使用自己的 Key 時，模型用量由服務商計費，Orkas 不加價。[價格 →](https://orkas.ai/pricing/?source=gh-orkas)
+是的，應用採用 MIT 許可證，可免費使用。安裝版贈送 500 積分；付費會員每月 $11.99 起，增加月度積分、雲端同步、更多共用專案和發布網頁應用程式能力。使用自己的 Key 時，模型用量由服務商計費，Orkas 不加價。[價格 →](https://orkas.ai/pricing/?source=gh-orkas)
 
 ---
 

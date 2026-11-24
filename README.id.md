@@ -4,9 +4,9 @@
 
 Orkas adalah open source (MIT), aplikasi desktop multi-agen lokal pertama ∙ asisten AI yang bekerja sebagai tim.**Commander** apa yang Anda butuhkan: ia menyelesaikan banyak tugas sendiri, dan untuk pekerjaan yang lebih besar ia merencanakan langkah-langkah dan membawa agen spesialis bersama dengan agen pengkodean dan pribadi yang sudah Anda gunakan**Claude Code, Codex, OpenCode, OpenClaw dan Hermes-Agent** — untuk bekerja sama.
 
-Orkas dibangun untuk menjaga proyek bergerak, bukan hanya menjawab satu permintaan.**proyek** memegang tujuan, aturan, memori dan file, jadi setiap percakapan baru akan dimulai di tempat yang terakhir berhenti.**Untuk-untuk-dosa** membagi pekerjaan antara orang dan agen,**Pembangunan otomatis** membiarkan tim mengambil tugas berikutnya sendiri, dan**otomatisasi yang dijadwalkan** Ulangi pekerjaan rutin setiap jam, setiap hari, mingguan atau bulanan. Semua data Anda tetap di komputer Anda, dan pekerjaan selesai kembali untuk ulasan Anda
+Orkas dirancang agar proyek terus berjalan, bukan hanya untuk menjawab satu pertanyaan. **Proyek** menyatukan tujuan, aturan, memori, dan berkas sehingga Anda bisa melanjutkan pekerjaan dalam percakapan baru. **Daftar tugas** bisa dibagikan kepada orang atau agen. Dengan **Auto-advance**, tim mengambil tugas berikutnya secara otomatis. **Otomatisasi terjadwal** mengulang pekerjaan rutin setiap jam, hari, minggu, atau bulan. Semua data tetap tersimpan di komputer Anda. Hasil pekerjaan diserahkan kembali untuk Anda tinjau, sehingga Anda bisa mempercayakan pekerjaan bisnis yang perlu terus berjalan kepada Orkas.
 
-**[ — Unduh Orkas untuk macOS & Windows](https://orkas.ai/download/?source=gh-orkas&entry_point=github_readme&download=1)** — gratis, dengan 500 credits untuk model Orkas terintegrasi, jadi Anda tidak perlu kunci API untuk memulai. Lebih memilih kunci Anda sendiri? Claude · OpenAI · Gemini · DeepSeek · Kimi · GLM · Qwen · MiniMax · Doubao, atau titik akhir yang kompatibel dengan OpenAI lokal.
+**[ — Unduh Orkas untuk macOS & Windows](https://orkas.ai/download/?source=gh-orkas&entry_point=github_readme&download=1)** — gratis, dengan 500 kredit untuk model Orkas terintegrasi, jadi Anda tidak perlu kunci API untuk memulai. Lebih memilih kunci Anda sendiri? Claude · OpenAI · Gemini · DeepSeek · Kimi · GLM · Qwen · MiniMax · Doubao, atau titik akhir yang kompatibel dengan OpenAI lokal.
 
 [![Download for macOS & Windows](https://img.shields.io/badge/Download-macOS%20%26%20Windows-5b57d6?style=for-the-badge)](https://orkas.ai/download/?source=gh-orkas&entry_point=github_readme&download=1)
 
@@ -26,7 +26,7 @@ https://github.com/user-attachments/assets/4f8b16c8-a192-45a4-b19f-80e8d02c3dab
 
 ---
 
-## Apa yang tim memberikan
+## Hasil yang bisa dikerjakan tim
 
 - **Video, suara dan gambar** — VideoStudio, VoiceStudio, ImageStudio
 - **Laporan penelitian, audit SEO dan analisis pasar** — DeepResearcher, SeoGeoAgent, StockAnalyser
@@ -36,7 +36,7 @@ https://github.com/user-attachments/assets/4f8b16c8-a192-45a4-b19f-80e8d02c3dab
 - **Pekerjaan e-commerce** — Penelitian produk, daftar, analisis ulasan, analisis penjualan dan perubahan katalog, dari lima agen e-commerce
 - **Pekerjaan yang kompleks yang membutuhkan beberapa agen** — Commander membagi itu, menyerahkan setiap bagian ke agen yang tepat dan menggabungkan hasil; misalnya, penelitian pasar yang menjadi laporan, slide deck dan video peluncuran
 
-16 spesialis mengirimkan aplikasi, masing-masing dengan keterampilan, memori dan alatnya sendiri.[pasar agen](https://orkas.ai/views/marketplace/gs/agents/?source=gh-orkas), atau menggambarkan peran yang Anda butuhkan dan Commander membangun agen khusus untuk Anda.
+Aplikasi ini dilengkapi 16 agen spesialis, masing-masing dengan keahlian, memori, dan alatnya sendiri. Anda dapat memilih dari lebih dari 30 agen di [pustaka agen](https://orkas.ai/views/marketplace/gs/agents/?source=gh-orkas), atau menjelaskan peran yang dibutuhkan agar Commander membuat agen khusus.
 
 <details>
 <summary><b>Semua 16 agen terintegrasi</b></summary>
@@ -57,7 +57,7 @@ https://github.com/user-attachments/assets/4f8b16c8-a192-45a4-b19f-80e8d02c3dab
 | Perdagangan elektronik | **ECommerceResearcher** | Pemilihan produk berdasarkan anggaran, pasar dan sumber daya terbatas      kandidat, alasan penolakan, rencana validasi |
 | | **ECommerceWriter** | Judul, halaman detail, FAQ, salinan gambar dan skrip video dalam suara merek Anda |
 | | **ECommerceReviewer** | Ulasan dan analisis reputasi     √ Tema pelanggan, penyebab utama ulasan buruk, prioritas |
-| | **ECommerceAnaliser** | Penjualan, keuntungan, iklan, pengembalian dana dan persediaan dari ekspor Anda |
+| | **ECommerceAnalyzer** | Penjualan, keuntungan, iklan, pengembalian dana dan persediaan dari ekspor Anda |
 | | **ECommerceOperator** | Rencanakan perubahan katalog, harga, promosi dan persediaan; hanya dijalankan melalui alat yang Anda sambungkan |
 
 Lebih banyak tentang setiap agen[orkas.ai/agen](https://orkas.ai/agents/?source=gh-orkas)
@@ -82,13 +82,13 @@ Satu tugas adalah awal yang baik. Orkas dibangun untuk pekerjaan yang terus berl
 
 - **Proyek** — tujuan & aturan, memori dan file yang setiap percakapan dalam proyek dimulai dari, jadi Anda tidak pernah singkat dari nol.
 - **To-dos dan Auto-Advance** — setiap proyek memiliki daftar tugas untuk orang dan agen; dengan Auto-advance, tim mengambil item berikutnya sendiri dan membawa pekerjaan selesai kembali untuk tinjauan Anda.
-- **Otomatisasi terjadwal** — ✓ menjalankan tugas setiap jam, setiap hari, mingguan atau bulanan. Orkas berjalan di komputer Anda. Mulai dari versi 1.9, setiap otomatisasi menangkap pelaksanaan yang paling baru hilang dalam waktu 12 hours ketika komputer bangun atau Orkas dimulai.
+- **Otomatisasi terjadwal** — Jalankan tugas setiap jam, hari, minggu, atau bulan. Orkas berjalan di komputer Anda. Mulai versi 1.9, saat komputer keluar dari mode tidur atau Orkas dijalankan, setiap otomatisasi hanya menjalankan ulang jadwal terakhir yang terlewat dalam 12 jam sebelumnya.
 - **Konektor** — Gmail, Google Calendar, Sheets and Drive, Notion, Slack, Shopify, Stripe dan banyak lagi. Secara default, Orkas bertanya sebelum mengirim, memposting atau menghapus apa pun.
 - **Aplikasi** — menggambarkan alat dan Orkas membangunnya sebagai aplikasi lokal di dalam aplikasi desktop. Dalam aplikasi yang terpaket, rencana berbayar juga dapat menerbitkannya sebagai aplikasi web dengan tautan publik.
-- **Proyek bersama** — *(app yang terpaket)*invite rekan satu tim atau VA, dan berikan setiap tugas ke seseorang atau agen.
+- **Proyek bersama** (versi instalasi) — Undang rekan kerja atau asisten virtual, lalu tugaskan setiap pekerjaan kepada orang atau agen.
 
 > [!NOTE]
-> Proyek bersama, sinkronisasi awan dan penerbitan aplikasi web hanya dalam paket aplikasi**[Unduh Orkas untuk macOS & Windows](https://orkas.ai/download/?source=gh-orkas&entry_point=github_readme&download=1)** (gratis, dengan 500 credits untuk memulai).
+> Proyek bersama, sinkronisasi awan dan penerbitan aplikasi web hanya dalam paket aplikasi**[Unduh Orkas untuk macOS & Windows](https://orkas.ai/download/?source=gh-orkas&entry_point=github_readme&download=1)** (gratis, dengan 500 kredit untuk memulai).
 
 ---
 
@@ -103,8 +103,8 @@ Orkas menjalankan agen CLI yang sudah Anda pasang sebagai sesi lokal, di samping
 ## Mengapa Orkas
 
 - **Seorang Commander yang merencanakan, menugaskan dan melakukan sisanya** — itu memecah-belah tujuan, memilih agen yang tepat, keterampilan, konektor dan alat, dan menangani analisis, penulisan, penelitian dan kerja berkas sendiri ketika tidak ada spesialis yang lebih cocok.
-- **Lokal-pertama oleh desain** — percakapan, file, basis pengetahuan dan agen kustom tetap di disk Anda secara default. Sinkronisasi awan adalah opsional dalam aplikasi yang dikemas. Dengan kunci Anda sendiri, panggilan model langsung dari mesin Anda ke penyedia; model Orkas terintegrasi berjalan melalui layanan model yang dikelola Orkas.
-- **Model apa pun, ganti kapan saja** — Commander dan agen terintegrasi berbagi satu pengaturan model: model Orkas terintegrasi, penyedia Anda sendiri, atau titik akhir lokal.
+- **Penyimpanan lokal secara bawaan** — Percakapan, berkas, basis pengetahuan, dan agen kustom disimpan di komputer Anda secara bawaan. Sinkronisasi cloud dapat diaktifkan pada versi instalasi. Jika memakai kunci sendiri, permintaan model dikirim langsung dari komputer Anda ke penyedia; model bawaan Orkas menggunakan layanan yang dikelola Orkas.
+- **Model dapat diganti kapan saja** — Commander dan agen bawaan menggunakan pengaturan model yang sama: model bawaan Orkas, penyedia pilihan Anda, atau endpoint lokal. Agen CLI eksternal tetap menggunakan pengaturan model masing-masing.
 - **Agen yang menjadi lebih baik** — setiap agen menyimpan keterampilan dan memori pribadi. Ulasan latar belakang memeriksa aktivitas baru ketika aplikasi tidak aktif dan dapat memperbaiki penilaian diri, metode yang dapat digunakan kembali dan keterampilan yang dipelajari.
 - **Sumber terbuka, tidak ada kotak hitam** — Baca persis apa Orkas dan setiap agen dan keterampilan lakukan.
 
@@ -117,7 +117,7 @@ Orkas menjalankan agen CLI yang sudah Anda pasang sebagai sesi lokal, di samping
 | | Aplikasi yang terpaket (direkomendasi) | Berjalan dari sumber |
 | --- | --- | --- |
 | Platform | macOS 12+ (Apple Silicon & Intel), Windows 10+ | macOS, Windows, glibc 2.34+ Linux x64/arm64 |
-| Akun | Tanda tangan ¢ 500 kredit gratis | Tidak ada |
+| Akun | Masuk untuk mendapat 500 kredit | Tidak perlu akun |
 | Model | Model Orkas terintegrasi, atau kunci Anda sendiri | Kunci Anda sendiri atau titik akhir lokal |
 | Juga termasuk | Kolaborasi proyek, penerbitan aplikasi, sinkronisasi awan, dan banyak lagi | — |
 | Ambillah. | **[Unduh Orkas](https://orkas.ai/download/?source=gh-orkas&entry_point=github_readme&download=1)** | [Mulai cepat](#mulai-cepat) |
@@ -145,10 +145,10 @@ Link download mendeteksi sistem Anda dan memulai installer yang tepat.
 | --- | --- | --- |
 | **Claude Code** | Alat pengkodean agen Anthropic      in terminal, IDE, desktop dan web, dibangun pada model Claude. | Tidak baik-atau: Orkas menjalankan Claude Code sebagai salah satu agennya. Di sekitarnya, Orkas menambahkan tim model-agnostik untuk pekerjaan di luar kode — penelitian, konten, video dan banyak lagi — dengan proyek, tugas dan otomatisasi yang membuatnya bergerak.[Orkas vs Claude Code →](https://orkas.ai/compare/orkas-vs-claude-code/?source=gh-orkas) |
 | **Codex** | Agen pengkodean OpenAI di terminal, editor Anda dan awan. | Tidak baik-atau: Orkas menjalankan Codex sebagai salah satu agennya, di samping Claude Code dan OpenCode. Commander dapat menyerahkan pengkodean ke Codex dan ulasan ke agen lain, kemudian menutupi setengah non-kode dari rilis — dokumen, peluncuran posting dan video.[Orkas vs Codex →](https://orkas.ai/compare/orkas-vs-codex/?source=gh-orkas) |
-| **Claude Cowork** | Agen Anthropic untuk pekerjaan sehari-hari, sekarang bagian dari Claude — di desktop, web dan seluler dengan rencana Claude berbayar. | Sebuah alternatif open-source (MIT) untuk Claude Cowork yang gratis untuk memulai, dengan 500 credits. Orkas menjalankan agennya di komputer Anda dan menyimpan data lokal secara default, dengan model Orkas tertanam, kunci penyedia Anda sendiri atau titik akhir lokal. Commander juga dapat membawa Claude Code, Codex dan agen CLI lainnya. Kompensasi: Orkas membutuhkan komputer Anda terjaga, sementara tugas awan Cowork dapat terus berjalan tanpa itu.[Claude Cowork alternatif →](https://orkas.ai/compare/claude-cowork-alternatives/?source=gh-orkas) |
+| **Claude Cowork** | Agen Anthropic untuk pekerjaan sehari-hari, sekarang bagian dari Claude — di desktop, web dan seluler dengan rencana Claude berbayar. | Sebuah alternatif open-source (MIT) untuk Claude Cowork yang gratis untuk memulai, dengan 500 kredit. Orkas menjalankan agennya di komputer Anda dan menyimpan data lokal secara default, dengan model Orkas tertanam, kunci penyedia Anda sendiri atau titik akhir lokal. Commander juga dapat membawa Claude Code, Codex dan agen CLI lainnya. Kompensasi: Orkas membutuhkan komputer Anda terjaga, sementara tugas awan Cowork dapat terus berjalan tanpa itu.[Claude Cowork alternatif →](https://orkas.ai/compare/claude-cowork-alternatives/?source=gh-orkas) |
 | **Manus** | Agen AI yang merencanakan dan menjalankan tugas di awan Manus secara default. Aplikasi desktop Manus Studio (macOS dan Windows) juga dapat bekerja di folder yang Anda pilih, dengan tugas yang masih direncanakan di awan. | Orkas menjalankan agennya di komputer Anda dan menyimpan data lokal secara default, dengan model Orkas tertanam, kunci penyedia Anda sendiri atau titik akhir lokal. Proyek, tugas dan otomatisasi membuat pekerjaan bergerak. Kompromise: Orkas membutuhkan komputer Anda terjaga, sementara tugas awan Manus dapat terus berjalan tanpa itu.[Alternatif Manus sumber terbuka →](https://orkas.ai/open-source-manus-alternative/?source=gh-orkas) |
-| **LangChain** | Kerangka kerja/biblioteka pengembang untuk membangun aplikasi LLM dan agen — kode-pertama, tertanam dalam aplikasi Python / JS Anda sendiri. | Orkas adalah aplikasi desktop yang Anda mengarahkan melalui obrolan, bukan dengan menulis kode orkestrasi. Data tetap lokal secara default. |
-| **CrewAI** | Sebuah kerangka kerja Python untuk mengatur peran-permain agen otonom      you mendefinisikan kru dan agen dalam kode. | Orkas membawa multi-agen orchestration ke dalam aplikasi desktop, dengan proyek, tugas, otomatisasi dan perbaikan diri per agen dibangun di dalamnya. |
+| **LangChain** | Kerangka kerja untuk mengembangkan aplikasi dan agen berbasis LLM yang dapat disematkan melalui kode di aplikasi Python atau JavaScript. | Orkas adalah aplikasi desktop yang Anda kendalikan lewat obrolan. Secara bawaan, data disimpan di komputer Anda. |
+| **CrewAI** | Kerangka kerja untuk menentukan tim dan peran dengan Python serta mengoordinasikan agen otonom. | Orkas mengoordinasikan beberapa agen dari aplikasi desktop dengan fitur proyek, daftar tugas, otomatisasi, dan agen yang belajar dari pekerjaan mereka. |
 | **OpenClaw** | Platform agen pribadi dengan integrasi pesan, multi-agen routing dan sub-agen. | Orkas menyediakan ruang kerja desktop untuk pengiriman selesai, dengan spesialis terintegrasi dan koordinasi di seluruh Claude Code, Codex, OpenCode dan agen CLI lainnya. OpenClaw dapat bergabung dengan alur kerja itu sebagai agen CLI. |
 | **Hermes-Agent** | Agen Nous Research yang meningkatkan diri      1 agen dengan memori dan keterampilan, tersedia sebagai CLI, gateway pesan dan aplikasi desktop. | Orkas mengkoordinasikan tim: Commander mengarahkan banyak spesialis dan agen CLI lainnya, dan Hermes-Agent masuk sebagai salah satu dari mereka. |
 
@@ -175,7 +175,7 @@ cd Orkas
 run.cmd            # Windows
 ```
 
-Linux membutuhkan glibc 2.34+. Alpine dan distribusi berbasis musl lainnya tidak didukung. Transkripsi suara lokal diunduh dan memverifikasi target-native whisper.cpp runtime dan model multilingual selama peluncuran sumber pertama.
+Menjalankan Orkas dari kode sumber di Linux memerlukan glibc 2.34 atau yang lebih baru. Alpine dan distribusi berbasis musl lainnya tidak didukung. Pada peluncuran pertama dari kode sumber, Orkas mengunduh dan memverifikasi runtime whisper.cpp sesuai arsitektur komputer dan model multibahasa untuk transkripsi suara lokal.
 
 `run.sh` / `run.cmd`menginstal pohon ketergantungan npm yang terkunci dan mempersiapkan Python, uv, Node, model embedding (~95 MB), OfficeCLI, FFmpeg, whisper.cpp, dan sumber daya model pidato multilingual pada peluncuran pertama. Linux startup kemudian memverifikasi modul platform asli dan Whisper runtime di bawah ABI Electron sebelum membuka aplikasi. Paket Python OCR dan Skill khusus dipasang ke lingkungan lokal terisolasi ketika fitur-fitur tersebut digunakan untuk pertama kalinya. Peluncuran pertama menciptakan ruang kerja di bawah`~/.orkas/`(macOS / Linux) atau`<smallest non-system drive>:\.orkas\`(Windows). Kemudian buka**Pengaturan → Penyedia AI** untuk menambahkan kunci API atau OAuth.
 
@@ -195,7 +195,7 @@ Lihatlah[skrip verifikasi ketergantungan asli](./scripts/verify-native-dependenc
 Commander menangani pekerjaan umum sendiri dan mendelegasikan pekerjaan spesialis melalui tiga alat:
 
 - **`dispatch_to`** — dapat menunggu hasil atau berjalan secara asinkron dan memberi tahu Commander ketika tugas selesai.
-- **`hand_off_to`** — agen memberikan jawaban sendiri; lanjutan opsional memungkinkan komandan melanjutkan tugas yang lebih luas setelahnya.
+- **`hand_off_to`** menyerahkan pekerjaan yang tersisa kepada agen yang disebutkan namanya dan mengakhiri giliran Commander saat ini. Agen tersebut langsung memberikan jawaban. Langkah lanjutan opsional memungkinkan Commander melanjutkan tugas yang lebih luas nanti.
 - **`run_worker`** — menjalankan subtask anonim dan terisolasi dan mengembalikan hasil pribadi.
 
 Tugas agen yang diberi nama dan pekerja anonim memiliki kontrol simultan terpisah.[implementasi pengiriman](./src/main/features/group_chat/bus.ts)dan[kunci eksekusi](./src/main/util/locks.ts).
@@ -210,7 +210,7 @@ Lihatlah[anggaran konteks](./src/core-agent/src/agent/context-budget.ts), [Sejar
 
 Catatan tahan lama menyimpan preferensi pengguna, fakta proyek dan pengetahuan yang dapat digunakan kembali oleh masing-masing agen dalam ruang lingkup terpisah. Catatan ini berbeda dari indeks dokumen Perpustakaan dan riwayat percakapan yang disimpan.
 
-Perpustakaan mengekstrak dokumen ke dalam bagian dan menyimpan indeks vektor SQLite lokal.`library`Alat ini dapat mencantumkan file, mencari bagian yang relevan dan membaca konten sumber dari perpustakaan proyek global atau saat ini.`chat_history`.
+Pustaka memecah dokumen menjadi paragraf dan membuat indeks vektor SQLite lokal. Model embedding berjalan di komputer Anda. Dengan `library`, agen dapat melihat daftar berkas, mencari bagian yang relevan, dan membaca isi sumber dari pustaka global atau pustaka proyek saat ini. Percakapan sebelumnya ditelusuri secara terpisah dengan `chat_history`.
 
 Lihatlah[memori yang terdefinisi](./src/main/features/memory.ts), [ekstraksi dokumen](./src/main/util/file_to_chunks.ts), [Alat perpustakaan](./src/main/model/core-agent/kb-tools.ts)dan[Pemulihan percakapan](./src/main/model/core-agent/chat-history-tools.ts).
 
@@ -222,7 +222,7 @@ Lihatlah[anggaran aktor](./src/main/features/group_chat/actor-budgets.ts),[waktu
 
 ### Belajar dari kegiatan
 
-Review latar belakang memeriksa aktivitas agen baru ketika aplikasi tidak aktif, tertakluk pada cooldown dan batas eksekusi.`COMPETENCE.md`), metode yang dapat digunakan kembali (`LEARNING_STRATEGIES.md`Ulasan tergantung pada aktivitas baru daripada jumlah tugas, dan dapat menyimpulkan bahwa tidak ada yang layak disimpan.
+Peninjauan latar belakang memeriksa aktivitas baru agen saat aplikasi sedang tidak digunakan, dengan jeda dan batas eksekusi. Peninjauan ini dapat memperbarui penilaian diri (`COMPETENCE.md`), metode yang bisa digunakan kembali (`LEARNING_STRATEGIES.md`), atau keterampilan yang dipelajari, atau menyimpulkan bahwa tidak ada yang perlu disimpan. Jadwal peninjauan didasarkan pada aktivitas baru, bukan jumlah tugas yang telah diselesaikan.
 
 Lihatlah[penjadwal refleksi](./src/main/features/reflection-orchestrator.ts)dan[review prompt](./src/core-agent/src/evolution/metacognition.ts).
 
@@ -231,28 +231,28 @@ Lihatlah[penjadwal refleksi](./src/main/features/reflection-orchestrator.ts)dan[
 ## FAQ
 
 **Apa itu Orkas?**
-Orkas adalah open-source (MIT), aplikasi desktop multi-agent lokal pertama. Commandernya mengubah tujuan Anda menjadi tugas dan mengkoordinasikan 16 agen spesialis tertanam ¢ ditambah Claude Code, Codex, OpenCode, OpenClaw dan Hermes-Agent ¢ untuk mengirimkan file yang selesai.
+Orkas adalah open-source (MIT), aplikasi desktop multi-agent lokal pertama. Commandernya mengubah tujuan Anda menjadi tugas dan mengkoordinasikan 16 agen spesialis tertanam  ditambah Claude Code, Codex, OpenCode, OpenClaw dan Hermes-Agent  untuk mengirimkan file yang selesai.
 
 **Apa aku butuh kunci API?**
-Tidak. Aplikasi paket dilengkapi dengan 500 credits untuk model Orkas terintegrasi. Setelah itu, beli kredit, pilih rencana berbayar atau tambahkan kunci penyedia Anda sendiri; biaya penyedia terpisah.
+Tidak. Aplikasi paket dilengkapi dengan 500 kredit untuk model Orkas terintegrasi. Setelah itu, beli kredit, pilih rencana berbayar atau tambahkan kunci penyedia Anda sendiri; biaya penyedia terpisah.
 
-**Apakah Orkas adalah LLM lokal?**
-Tidak. Orkas berjalan di mesin Anda dan memanggil model yang Anda pilih — model Orkas tertanam, kunci API Anda sendiri, atau titik akhir model lokal. Ini menyusun agen dan alat; itu bukan model sendiri.
+**Apakah Orkas merupakan model bahasa besar (LLM) lokal?**
+Tidak. Orkas berjalan di komputer Anda dan memanggil model yang Anda pilih: model bawaan Orkas, model yang Anda hubungkan dengan kunci API sendiri, atau model melalui endpoint lokal. Orkas mengoordinasikan agen dan alat; Orkas sendiri bukan model.
 
 **Bisakah Orkas menjawab pertanyaan dari dokumenku, dengan kutipan?**
 Ya. Tambahkan PDF dan dokumen ke Perpustakaan lokal Anda; Orkas dapat mencari mereka dan menjawab dengan kutipan untuk sumber ayat, sehingga Anda dapat membuka asli dan memeriksa. Indeks dibangun di mesin Anda.
 
 **Bisakah aku menggunakan model lokal seperti Ollama atau LM Studio?**
-Ya, terbuka.**Pengaturan akun → Model → Chat → Tambahkan model → Custom**, pilih** OpenAI-kompatibel**atau** Antropik-kompatibel**, dan masukkan URL dasar, ID model yang tepat, dan kunci API. Pilih model yang disimpan dari kontrol model tugas.
+Ya. Buka **Pengaturan akun → Model → Obrolan → Tambah model → Kustom**, lalu pilih **Kompatibel dengan OpenAI** atau **Kompatibel dengan Anthropic**. Masukkan URL dasar, ID model yang tepat, dan kunci API. Setelah itu, pilih model yang telah disimpan melalui pemilih model pada tugas.
 
 **Dimana kunci API dan data saya disimpan?**
-Pada disk Anda secara default. Kunci penyedia Anda sendiri dienkripsi secara lokal dan tidak termasuk dalam sinkronisasi awan. Dengan kunci Anda sendiri, panggilan model langsung dari mesin Anda ke penyedia; model Orkas terintegrasi menggunakan layanan yang dikelola Orkas. Sinkronisasi awan opsional dan berbagi proyek di aplikasi paket menyimpan data yang dipilih pada server Orkas.[Keamanan dan penanganan data →](https://orkas.ai/security/?source=gh-orkas)
+Secara bawaan, data dan kunci disimpan di komputer Anda. Kunci penyedia milik Anda dienkripsi secara lokal dan tidak disinkronkan ke cloud. Jika Anda menggunakan kunci sendiri, permintaan model dikirim langsung dari komputer ke penyedia. Model bawaan Orkas menggunakan layanan yang dikelola Orkas. Jika Anda memakai sinkronisasi cloud opsional atau proyek bersama di versi instalasi, data yang dipilih disimpan di server Orkas. [Keamanan dan penanganan data →](https://orkas.ai/security/?source=gh-orkas)
 
 **Apakah Orkas bekerja offline?**
 Sumber build dapat berjalan secara offline terhadap endpoint model lokal. Aplikasi yang terpaket perlu masuk, dan model cloud membutuhkan koneksi jaringan.
 
 **Apakah itu terus bekerja ketika komputer saya mati?**
-Tidak     Orkas berjalan di komputer Anda, jadi Auto-Advance dan otomatisasi membutuhkan komputer bangun dan Orkas berjalan. Dari v1.9, setiap otomatisasi menangkap pelaksanaan yang paling baru hilang dalam waktu 12 hours ketika komputer bangun atau Orkas dimulai.
+Tidak. Auto-advance dan otomatisasi terjadwal memerlukan komputer yang aktif dan Orkas yang sedang berjalan. Mulai versi 1.9, saat komputer keluar dari mode tidur atau Orkas dijalankan, setiap otomatisasi hanya menjalankan ulang jadwal terakhir yang terlewat dalam 12 jam sebelumnya.
 
 **Bisakah saya membuat dan mempublikasikan aplikasi?**
 Ya. Aplikasi lokal yang berjalan di dalam Orkas gratis. Menerbitkan aplikasi web ke tautan publik membutuhkan rencana berbayar (Lite 5, Pro 8, Max 15 aplikasi), dan aplikasi web yang diterbitkan tidak mencakup semua kemampuan yang tersedia di dalam Orkas.
@@ -264,13 +264,13 @@ Aplikasi desktop yang terpaket meminta Anda untuk masuk saat pertama kali dilunc
 Ya. Orkas dapat mengoperasikan lima agen CLI eksternal sebagai subproses lokal ∙ agen pengkodean Claude Code, Codex dan OpenCode, ditambah agen pribadi OpenClaw dan Hermes-Agent ∙ dan di dalamnya proyek open source seperti HyperFrames, semua diarahkan dari obrolan yang sama.
 
 **Bagaimana Orkas berbeda dengan Claude Code / Codex / CrewAI / LangChain?**
-Claude Code dan Codex adalah agen pengkodean — Orkas berjalan baik sebagai anggota timnya, jadi Anda tidak perlu memilih antara mereka; CrewAI dan LangChain adalah kerangka kerja kode pertama. Orkas adalah aplikasi desktop open-source di mana seorang Commander mengkoordinasikan tim agen spesialis dan agen CLI Anda, dengan setiap penyedia model, dan menyimpan data dan kunci lokal. Lihat[perbandingan lengkap](https://orkas.ai/compare/?source=gh-orkas).
+Claude Code dan Codex adalah agen pemrograman. Orkas dapat menjalankan keduanya dalam satu tim, jadi Anda tidak perlu memilih salah satu. CrewAI dan LangChain adalah kerangka kerja yang berpusat pada kode. Orkas adalah aplikasi desktop sumber terbuka yang menggunakan Commander untuk mengoordinasikan agen spesialis dan agen CLI Anda. Anda dapat memilih dari berbagai penyedia model. Secara default, data dan kunci disimpan secara lokal. [Lihat perbandingan lengkap](https://orkas.ai/compare/?source=gh-orkas)
 
 **Platform mana yang didukung Orkas?**
-macOS 12+ (Apple Silicon dan Intel) dan Windows 10+ memiliki installer paket. glibc 2.34+ Linux x64/arm64 berjalan dari sumber hari ini, tanpa installer belum. Transkripsi suara lokal didukung pada Linux melalui pined whisper.cpp runtime siap pada peluncuran pertama. Alpine dan distribusi berbasis musl lainnya tidak didukung. Sumber bootstrap membutuhkan Node 22.12+; Python 3 dan alat buildchain C / C ++ hanya diperlukan ketika paket npm asli tidak memiliki biner pra-bangun yang kompatibel dan harus dibangun kembali secara lokal.
+Tersedia penginstal untuk macOS 12+ (Apple Silicon dan Intel) serta Windows 10+. Linux x64/arm64 dengan glibc 2.34 atau versi yang lebih baru saat ini berjalan dari kode sumber dan belum memiliki penginstal. Pada peluncuran pertama, Orkas menyiapkan runtime whisper.cpp pada versi yang telah ditentukan untuk transkripsi suara lokal. Alpine dan distribusi lain berbasis musl tidak didukung. Peluncuran dari kode sumber membutuhkan Node 22.12 atau yang lebih baru. Python 3 dan rangkaian alat build C/C++ hanya diperlukan jika paket npm native tidak memiliki biner siap pakai yang kompatibel dan harus dibangun ulang di komputer Anda.
 
 **Apakah Orkas gratis dan open source?**
-Ya — aplikasi ini dilisensikan oleh MIT dan gratis untuk digunakan. Aplikasi yang terpaket mencakup 500 credits untuk model Orkas built-in; rencana berbayar mulai dari $11.99/month menambahkan kredit bulanan, sinkronisasi awan, lebih banyak proyek bersama dan penerbitan aplikasi. Dengan kunci Anda sendiri, penggunaan model akan dibilling oleh penyedia Anda; Orkas tidak menambahkan tanda tangan.[Harga →](https://orkas.ai/pricing/?source=gh-orkas)
+Ya. Aplikasi ini berlisensi MIT dan gratis digunakan. Versi instalasi mencakup 500 kredit untuk model bawaan Orkas. Paket berbayar mulai dari US$11,99 per bulan dan menambahkan kredit bulanan, sinkronisasi cloud, lebih banyak proyek bersama, serta penerbitan aplikasi web. Jika Anda memakai kunci sendiri, penyedia menagih penggunaan model dan Orkas tidak mengenakan biaya tambahan. [Harga →](https://orkas.ai/pricing/?source=gh-orkas)
 
 ---
 

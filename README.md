@@ -4,7 +4,7 @@
 
 Orkas is an open-source (MIT), local-first multi-agent desktop app — an AI assistant that works as a team. Tell the **Commander** what you need: it finishes many tasks on its own, and for bigger work it plans the steps and brings in specialist agents along with the coding and personal agents you already use — **Claude Code, Codex, OpenCode, OpenClaw and Hermes-Agent** — to work on it together.
 
-Orkas is built to keep a project moving, not just answer one prompt. A **project** holds the goal, rules, memory and files, so every new conversation picks up where the last one left off. **To-dos** split the work between people and agents, **Auto-advance** lets the team take on the next to-do by itself, and **scheduled automations** repeat routine work hourly, daily, weekly or monthly. All your data stays on your computer, and finished work comes back for your review — so you can trust Orkas with the ongoing work of your business.
+Orkas is built to keep a project moving, not just answer one prompt. A **project** holds the goal, rules, memory and files, so every new conversation picks up where the last one left off. **To-dos** split the work between people and agents, **Auto-advance** lets the team take on the next to-do by itself, and **scheduled automations** repeat routine work hourly, daily, weekly or monthly. All your data stays on your computer, and finished work comes back to you for review—so you can trust Orkas with the work your business needs to keep moving forward.
 
 **[⬇ Download Orkas for macOS & Windows](https://orkas.ai/download/?source=gh-orkas&entry_point=github_readme&download=1)** — free, with 500 credits for the built-in Orkas model, so you don't need an API key to start. Prefer your own keys? Claude · OpenAI · Gemini · DeepSeek · Kimi · GLM · Qwen · MiniMax · Doubao, or a local OpenAI-compatible endpoint.
 
@@ -49,7 +49,7 @@ https://github.com/user-attachments/assets/4f8b16c8-a192-45a4-b19f-80e8d02c3dab
 | Content & media | **ContentWriter** | Publish-ready posts, articles, newsletters and case studies from a goal, sources or a rough draft |
 | | **PptMaker** | Editable, reviewable PPTX decks from a topic, outline or document |
 | | **ImageStudio** | Posters, covers, social images and infographics |
-| | **VideoStudio** | Narration, AI presenters, captions and dubbing, highlight clips, localization, and reference-video recreation with your own content and footage |
+| | **VideoStudio** | Video production and editing, including narration, AI presenters, captions, dubbing, clip extraction, localization, and reference-video recreation with your own content and footage |
 | | **VoiceStudio** | Narration, multi-voice audio, transcripts and subtitles, audio editing and mixing |
 | | **UIDesigner** | Editable, HTML-first UI from product goals, PRDs, screenshots or Figma material |
 | Build & office | **ProductDeveloper** | Repo-aware engineering — implement a PRD, fix bugs, refactor, review, with verifiable results |
@@ -82,7 +82,7 @@ One task is a good start. Orkas is built for the work that keeps going.
 
 - **Projects** — goals & rules, memory and files that every conversation in the project starts from, so you never brief from scratch.
 - **To-dos and Auto-advance** — every project has a to-do list for people and agents; with Auto-advance on, the team picks up the next item on its own and brings finished work back for your review.
-- **Scheduled automations** — run any task hourly, daily, weekly or monthly. Orkas runs on your computer. From v1.9, each automation catches up its most recent missed run within 12 hours when the computer wakes or Orkas starts.
+- **Scheduled automations** — Run tasks hourly, daily, weekly, or monthly. Orkas runs on your computer. Starting with v1.9, when the computer wakes or Orkas starts, each automation catches up only its most recent missed run from the preceding 12 hours.
 - **Connectors** — Gmail, Google Calendar, Sheets and Drive, Notion, Slack, Shopify, Stripe and many more. By default, Orkas asks before it sends, posts or deletes anything.
 - **Apps** — describe a tool and Orkas builds it as a local app inside the desktop app. In the packaged app, paid plans can also publish it as a web app with a public link.
 - **Shared projects** *(packaged app)* — invite a teammate or VA, and give each to-do to a person or an agent.
@@ -104,7 +104,7 @@ Orkas runs the CLI agents you already have installed as local sessions, next to 
 
 - **A Commander that plans, delegates and does the rest** — it breaks down goals, picks the right agents, skills, connectors and tools, and handles analysis, writing, research and file work itself when no specialist is a better fit.
 - **Local-first by design** — conversations, files, knowledge bases and custom agents stay on your disk by default. Cloud sync is optional in the packaged app. With your own keys, model calls go straight from your machine to the provider; the built-in Orkas model runs through Orkas's managed model service.
-- **Any model, switch any time** — the Commander and built-in agents share one model setting: the built-in Orkas model, your own provider, or a local endpoint. External CLI agents keep their own model settings.
+- **Switch models at any time** — the Commander and built-in agents share one model setting: the built-in Orkas model, your own provider, or a local endpoint. External CLI agents keep their own model settings.
 - **Agents that get better** — each agent keeps private skills and memory. Background reviews examine new activity when the app is idle and can refine self-assessment, reusable methods and learned skills.
 - **Open source, no black box** — MIT licensed. Read exactly what Orkas and every agent and skill do.
 
@@ -147,7 +147,7 @@ The download link detects your system and starts the right installer.
 | **Codex** | OpenAI's coding agent — in the terminal, your editor and the cloud. | Not either-or: Orkas runs Codex as one of its agents, next to Claude Code and OpenCode. The Commander can hand the coding to Codex and the review to another agent, then cover the non-code half of a release — docs, launch posts and videos. [Orkas vs Codex →](https://orkas.ai/compare/orkas-vs-codex/?source=gh-orkas) |
 | **Claude Cowork** | Anthropic's agent for everyday work, now part of Claude — on desktop, web and mobile with a paid Claude plan. It runs in Anthropic's cloud by default and uses Claude models. | An open-source (MIT) alternative to Claude Cowork that's free to start, with 500 credits. Orkas runs its agents on your computer and keeps your data local by default, with the built-in Orkas model, your own provider keys or a local endpoint. The Commander can also bring in Claude Code, Codex and other CLI agents. The trade-off: Orkas needs your computer awake, while Cowork's cloud tasks can keep running without it. [Claude Cowork alternatives →](https://orkas.ai/compare/claude-cowork-alternatives/?source=gh-orkas) |
 | **Manus** | An AI agent that plans and runs tasks in Manus's cloud by default. The Manus Studio desktop app (macOS and Windows) can also work in a folder you choose, with tasks still planned in the cloud. | An open-source (MIT) alternative to Manus. Orkas runs its agents on your computer and keeps your data local by default, with the built-in Orkas model, your own provider keys or a local endpoint. Projects, to-dos and automations keep the work moving. The trade-off: Orkas needs your computer awake, while Manus's cloud tasks can keep running without it. [Open-source Manus alternative →](https://orkas.ai/open-source-manus-alternative/?source=gh-orkas) |
-| **LangChain** | A developer framework/library for building LLM apps and agents — code-first, embedded in your own Python/JS app. | Orkas is a desktop app you direct through chat, not by writing orchestration code. Data stays local by default. |
+| **LangChain** | A developer framework/library for building LLM apps and agents — code-first, embedded in your own Python/JS app. | Orkas is a desktop app you direct through chat. Data stays local by default. |
 | **CrewAI** | A Python framework for orchestrating role-playing autonomous agents — you define crews and agents in code. | Orkas brings multi-agent orchestration into a desktop app, with projects, to-dos, automations and per-agent self-improvement built in. |
 | **OpenClaw** | A personal-agent platform with messaging integrations, multi-agent routing and sub-agents. | Orkas provides a desktop workspace for finished deliverables, with built-in specialists and coordination across Claude Code, Codex, OpenCode and other CLI agents. OpenClaw can join that workflow as a CLI agent. |
 | **Hermes-Agent** | Nous Research's self-improving agent — one agent with memory and skills, available as a CLI, a messaging gateway and a desktop app. | Orkas coordinates a team: the Commander directs many specialists and other CLI agents, and Hermes-Agent plugs in as one of them. |
@@ -180,9 +180,9 @@ Linux source runs require glibc 2.34+. Alpine and other musl-based distributions
 `run.sh` / `run.cmd` installs the locked npm dependency tree and prepares the pinned Python, uv, Node, embedding model (~95 MB), OfficeCLI, FFmpeg, whisper.cpp, and multilingual speech model resources on first launch. Linux startup then verifies the platform-native modules and Whisper runtime under Electron's ABI before opening the app. OCR and Skill-specific Python packages are installed into isolated local environments when those features are first used. First launch creates a workspace under `~/.orkas/` (macOS / Linux) or `<smallest non-system drive>:\.orkas\` (Windows). Then open **Settings → AI Providers** to add an API key or OAuth.
 
 Native dependency errors: use Node.js 24 LTS (minimum 22.12.0), then run
-`npm run native:repair` from this checkout. This restores optional packages,
-repairs SQLite for Electron, prepares bundled Node for isolated image processing,
-and checks SQL, sqlite-vec and sharp before success.
+`npm run native:repair` from this checkout. It restores optional dependencies,
+repairs the SQLite build for Electron, and verifies SQL and sqlite-vec. It also
+prepares the bundled Node runtime and verifies sharp in a separate process before reporting success.
 Use `npm run native:check` for a check without installation.
 See the [native dependency verification script](./scripts/verify-native-dependencies.cjs) for the checks performed.
 
@@ -237,7 +237,7 @@ Orkas is an open-source (MIT), local-first multi-agent desktop app. Its Commande
 No. The packaged app comes with 500 credits for the built-in Orkas model. After that, buy credits, choose a paid plan or add your own provider keys; provider charges are separate.
 
 **Is Orkas a local LLM?**
-No. Orkas runs on your machine and calls the models you choose — the built-in Orkas model, your own API keys, or a local model endpoint. It orchestrates agents and tools; it is not itself a model.
+No. Orkas runs on your computer and calls whichever model you select: the built-in Orkas model, a provider model you connect with your own API key, or a local model endpoint. Orkas coordinates agents and tools; it is not itself a model.
 
 **Can Orkas answer questions from my documents, with citations?**
 Yes. Add PDFs and documents to your local Library; Orkas can search them and answer with citations to source passages, so you can open the original and check. The index is built on your machine.
@@ -252,7 +252,7 @@ On your disk by default. Your own provider keys are encrypted locally and exclud
 The source build can run fully offline against a local model endpoint. The packaged app needs to sign in, and cloud models need a network connection.
 
 **Does it keep working when my computer is off?**
-No — Orkas runs on your computer, so Auto-advance and automations need the computer awake and Orkas running. From v1.9, each automation catches up its most recent missed run within 12 hours when the computer wakes or Orkas starts.
+No. Auto-advance and scheduled automations require the computer to be awake and Orkas to be running. Starting with v1.9, when the computer wakes or Orkas starts, each automation catches up only its most recent missed run from the preceding 12 hours.
 
 **Can I build and publish apps?**
 Yes. Local apps that run inside Orkas are free. Publishing a web app to a public link needs a paid plan (Lite 5, Pro 8, Max 15 apps), and published web apps don't include every capability available inside Orkas.
@@ -264,7 +264,7 @@ The packaged desktop app asks you to sign in when you first launch it. The sourc
 Yes. Orkas can drive five external CLI agents as local subprocesses — the coding agents Claude Code, Codex and OpenCode, plus the personal agents OpenClaw and Hermes-Agent — and onboard open-source projects like HyperFrames, all directed from the same chat.
 
 **How is Orkas different from Claude Code / Codex / CrewAI / LangChain?**
-Claude Code and Codex are coding agents — Orkas runs both as members of its team, so you don't have to choose between them; CrewAI and LangChain are code-first frameworks. Orkas is an open-source desktop app where a Commander coordinates a team of specialist agents and your CLI agents, with any model provider, and keeps data and keys local. See the [full comparisons](https://orkas.ai/compare/?source=gh-orkas).
+Claude Code and Codex are coding agents — Orkas runs both as members of its team, so you don't have to choose between them; CrewAI and LangChain are code-first frameworks. Orkas is an open-source desktop app where a Commander coordinates a team of specialist agents and your CLI agents, with a choice of model providers, and stores data and keys locally by default. See the [full comparisons](https://orkas.ai/compare/?source=gh-orkas).
 
 **Which platforms does Orkas support?**
 macOS 12+ (Apple Silicon and Intel) and Windows 10+ have packaged installers. glibc 2.34+ Linux x64/arm64 runs from source today, with no installer yet. Local speech transcription is supported on Linux through the pinned whisper.cpp runtime prepared on first launch. Alpine and other musl-based distributions are not supported. The source bootstrap needs Node 22.12+; Python 3 and a C/C++ build toolchain are needed only when a native npm package has no compatible prebuilt binary and must be rebuilt locally.

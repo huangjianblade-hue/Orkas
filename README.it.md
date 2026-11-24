@@ -4,9 +4,9 @@
 
 Orkas è un'app desktop multi-agente locale, open source (MIT), un assistente AI che lavora come team.**Commander** cosa ti serve: completa da solo molti compiti, e per lavori più grandi pianifica le fasi e porta in campo agenti specializzati insieme ai codificatori e agli agenti personali che già usi**Claude Code, Codex, OpenCode, OpenClaw e Hermes-Agent** - lavorare insieme.
 
-Orkas è costruito per mantenere un progetto in movimento, non solo rispondere a un'unica richiesta.**Progetto** contiene l'obiettivo, le regole, la memoria e i file, quindi ogni nuova conversazione riprende dove l'ultima si era fermata.**- A fare** la divisione del lavoro tra persone e agenti,**Auto-advance** Lascia che la squadra faccia da sola il prossimo lavoro, e**automatizzazioni programmate** il lavoro di routine viene ripetuto ogni ora, ogni giorno, settimanale o mese. tutti i dati rimangono sul computer e il lavoro finito viene restituito per la tua revisione
+Orkas è pensato per portare avanti i progetti, non solo per rispondere a una domanda. Un **progetto** raggruppa obiettivi, regole, memoria e file, così puoi riprendere il lavoro in ogni nuova conversazione. Puoi assegnare le **attività** a persone e agenti; con **Auto-advance**, il team passa da solo all’attività successiva. Le **automazioni programmate** ripetono le operazioni di routine ogni ora, giorno, settimana o mese. Tutti i tuoi dati restano sul tuo computer e ricevi i risultati da controllare. Puoi così affidare a Orkas le attività che la tua azienda ha bisogno di portare avanti nel tempo.
 
-**[ — Scaricare Orkas per macOS e Windows](https://orkas.ai/download/?source=gh-orkas&entry_point=github_readme&download=1)** — gratuito, con 500 credits per il modello Orkas integrato, quindi non hai bisogno di una API key per iniziare. Preferisci le tue chiavi? Claude · OpenAI · Gemini · DeepSeek · Kimi · GLM · Qwen · MiniMax · Doubao, o un endpoint locale compatibile con OpenAI.
+**[ — Scaricare Orkas per macOS e Windows](https://orkas.ai/download/?source=gh-orkas&entry_point=github_readme&download=1)** — gratuito, con 500 crediti per il modello Orkas integrato, quindi non hai bisogno di una API key per iniziare. Preferisci le tue chiavi? Claude · OpenAI · Gemini · DeepSeek · Kimi · GLM · Qwen · MiniMax · Doubao, o un endpoint locale compatibile con OpenAI.
 
 [![Download for macOS & Windows](https://img.shields.io/badge/Download-macOS%20%26%20Windows-5b57d6?style=for-the-badge)](https://orkas.ai/download/?source=gh-orkas&entry_point=github_readme&download=1)
 
@@ -36,15 +36,15 @@ https://github.com/user-attachments/assets/4f8b16c8-a192-45a4-b19f-80e8d02c3dab
 - **Lavorare nel commercio elettronico** — Ricerca dei prodotti, annunci, analisi delle revisioni, analisi delle vendite e modifiche del catalogo, da cinque agenti di commercio elettronico
 - **Un lavoro complesso che richiede diversi agenti** — il comandante la divide, consegna ogni parte all'agente giusto e combina i risultati; ad esempio, una ricerca di mercato che diventa un rapporto, un slide deck e un video di lancio
 
-16 specialisti che hanno la propria capacità, memoria e strumenti.[mercato degli agenti](https://orkas.ai/views/marketplace/gs/agents/?source=gh-orkas), o descrivere il ruolo di cui hai bisogno e il comandante costruisce un agente personalizzato per te.
+L’app include 16 agenti specializzati, ciascuno con competenze, memoria e strumenti propri. Nella [libreria degli agenti](https://orkas.ai/views/marketplace/gs/agents/?source=gh-orkas) puoi sceglierne tra oltre 30. Puoi anche descrivere il ruolo che ti serve e chiedere al coordinatore di creare un agente su misura.
 
 <details>
-<summary><b>Tutti e sei gli agenti incorporati</b></summary>
+<summary><b>Tutti e 16 gli agenti integrati</b></summary>
 
 | Area | Agente . | Cosa offre |
 | --- | --- | --- |
 | Ricerca e analisi | **DeepResearcher** | Ricerca basata sulle prove con fonti verificate, contraddizioni segnalate e relazione verificabile |
-| | **Agente di geo-** | Date un URL — audit tecnico, qualità del contenuto, Core Web Vitals, citabilità di risposta AI (GEO), lista di correzioni classificata |
+| | **SeoGeoAgent** | Date un URL — audit tecnico, qualità del contenuto, Core Web Vitals, citabilità di risposta AI (GEO), lista di correzioni classificata |
 | | **StockAnalyser** | Ricerca sulle azioni, schermi di fattori, backtest e controlli del rischio di portafoglio, con dashboard tracciabili |
 | Contenuto e media | **ContentWriter** | Pubblicazione pronte di post, articoli, newsletter e studi di caso da un obiettivo, fonti o una bozza |
 | | **PptMaker** | Confezioni di PPTX modificabili e rilevabili da un argomento, schema o documento |
@@ -54,9 +54,9 @@ https://github.com/user-attachments/assets/4f8b16c8-a192-45a4-b19f-80e8d02c3dab
 | | **UIDesigner** | Interfaccia utente editabile, HTML-first, da obiettivi di prodotto, PRD, screenshot o materiale Figma |
 | Edificio e ufficio | **ProductDeveloper** | Ingegneria di repo-consapevole      implementare un PRD, correggere i bug, rifattor, revisione, con risultati verificabili |
 | | **OfficeWorker** | Crea, modifica, verifica e consegna di file Word / Excel / PowerPoint / PDF, uno alla volta o in lotti |
-| Commercio elettronico | **ECommerceResearcher** | Selezione dei prodotti per limite di bilancio, mercato e approvvigionamento  candidati, motivi di rifiuto, piani di convalida |
+| Commercio elettronico | **ECommerceResearcher** | Selezione dei prodotti per limite di bilancio, mercato e approvvigionamento   candidati, motivi di rifiuto, piani di convalida |
 | | **ECommerceWriter** | Titolo, pagine dettagliate, FAQ, copia di immagini e video script nella voce del tuo marchio |
-| | **E-commerceReviewer** | Ragione e analisi della reputazione  temi dei clienti, cause profonde di cattive recensioni, priorità |
+| | **ECommerceReviewer** | Ragione e analisi della reputazione   temi dei clienti, cause profonde di cattive recensioni, priorità |
 | | **ECommerceAnalyzer** | Vendite, profitti, annunci, rimborsi e inventario delle esportazioni |
 | | **ECommerceOperator** | Progetta cambiamenti di catalogo, prezzo, promozione e inventario; esegue solo attraverso strumenti connessi |
 
@@ -70,7 +70,7 @@ Più su ogni agente[orkas.ai/agenti](https://orkas.ai/agents/?source=gh-orkas)
 
 Questo funziona meglio per gli spiegatori di motion graphic, SaaS o demo app e annunci di prodotti costruiti a partire da filmati esistenti.
 
-> "Utilizzare il reference.mp4 come riferimento per una promozione verticale di 30 secondi.
+> «Usa reference.mp4 come riferimento per creare un video promozionale verticale di 30 secondi. Mantieni l’aggancio iniziale, lo stile tipografico e il ritmo, ma usa il mio prodotto e le mie registrazioni dello schermo. Mostrami prima l’analisi del video e il piano di produzione.»
 
 Inizia con un file video che l'agente può leggere; il download di link condivisioni su piattaforme sociali non è integrato.[flusso di lavoro di riferimento-ricreation](./resources/builtin/marketplace/agents/79df9cc89f5f/skills/video-craft/references/reference-recreation.md).
 
@@ -82,13 +82,13 @@ Un compito è un buon inizio.
 
 - **Progetti** — obiettivi e regole, memoria e file da cui parte ogni conversazione del progetto, quindi non si abbrevia mai da zero.
 - **I compiti e l'avanzamento automatico** — ogni progetto ha una lista di compiti per persone e agenti; con Auto-advance on, il team prende da solo il prossimo articolo e riporta il lavoro finito per la tua revisione.
-- **Automazioni pianificate** — Orkas viene eseguito sul computer. A partire dalla versione 1.9, ogni automazione riprende la sua ultima esecuzione mancata entro 12 hours quando il computer si sveglia o Orkas inizia.
+- **Automazioni pianificate** — Esegui attività ogni ora, giorno, settimana o mese. Orkas funziona sul tuo computer. Dalla versione 1.9, quando il computer si riattiva o Orkas si avvia, ogni automazione recupera solo l’esecuzione saltata più recente delle ultime 12 ore.
 - **Connettori** — Gmail, Calendario Google, Schede e Drive, Notion, Slack, Shopify, Stripe e molti altri.
 - **Applications** — descrivere uno strumento e Orkas lo costruisce come un'app locale all'interno dell'app desktop. Nell'app confezionata, i piani a pagamento possono anche pubblicarlo come un'app web con un link pubblico.
 - **Progetti condivisi** — *(app confezionata)*invitare un compagno di squadra o un assistente, e dare ogni compito a una persona o ad un agente.
 
 > [!NOTE]
-> I progetti condivisi, la sincronizzazione cloud e la pubblicazione di app web sono solo nell'app confezionata.**[Scaricare Orkas per macOS e Windows](https://orkas.ai/download/?source=gh-orkas&entry_point=github_readme&download=1)** (gratuito, con 500 credits per iniziare).
+> I progetti condivisi, la sincronizzazione cloud e la pubblicazione di app web sono solo nell'app confezionata.**[Scaricare Orkas per macOS e Windows](https://orkas.ai/download/?source=gh-orkas&entry_point=github_readme&download=1)** (gratuito, con 500 crediti per iniziare).
 
 ---
 
@@ -103,7 +103,7 @@ Orkas gestisce gli agenti CLI che hai già installato come sessioni locali, acca
 ## Perché le orche
 
 - **Un comandante che pianifica, delega e fa il resto** — rileva gli obiettivi, seleziona gli agenti, le competenze, i collegamenti e gli strumenti giusti e gestisce da solo l'analisi, la scrittura, la ricerca e il lavoro di archivio quando nessun specialista è più adatto.
-- **Locale-primo per progetto** — conversazioni, file, basi di conoscenze e agenti personalizzati rimangono sul disco per impostazione predefinita. La sincronizzazione cloud è opzionale nell'app confezionata. Con le tue chiavi, le chiamate di modello vanno direttamente dalla tua macchina al provider; il modello Orkas integrato viene eseguito attraverso il servizio di modello gestito di Orkas.
+- **Archiviazione locale per impostazione predefinita** — Conversazioni, file, basi di conoscenza e agenti personalizzati vengono salvati sul tuo computer per impostazione predefinita. Nella versione installabile puoi attivare la sincronizzazione nel cloud. Se usi una chiave tua, le richieste al modello arrivano al fornitore direttamente dal tuo computer; il modello integrato di Orkas usa un servizio gestito da Orkas.
 - **Qualsiasi modello, cambia a qualsiasi ora.** — il comandante e gli agenti integrati condividono un'impostazione di modello: il modello Orkas integrato, il proprio fornitore o un endpoint locale.
 - **Agenti che migliorano** — Le recensioni di background esaminano le nuove attività quando l'app è inattività e possono affinare l'auto-valutazione, i metodi riutilizzabili e le competenze apprese.
 - **Open source, senza scatola nera** — Leggi esattamente cosa fanno gli Orkas e ogni agente e ogni abilità.
@@ -117,7 +117,7 @@ Orkas gestisce gli agenti CLI che hai già installato come sessioni locali, acca
 | | App confezionata (recomandata) | Funziona dalla fonte |
 | --- | --- | --- |
 | Piattaforme | macOS 12+ (Apple Silicon & Intel), Windows 10+ | macOS, Windows, glibc 2.34+ Linux x64/arm64 |
-| Conto | Iscriviti a 500 crediti gratuiti | Nessuna |
+| Account | 500 crediti gratuiti all’accesso | Nessun account necessario |
 | Modelli | Modello Orkas integrato, o le tue chiavi | Le tue chiavi o un endpoint locale |
 | Include anche | Collaborazione di progetti, pubblicazione di app, sincronizzazione cloud e altro ancora | — |
 | Prendila. | **[Scarica Orkas](https://orkas.ai/download/?source=gh-orkas&entry_point=github_readme&download=1)** | [Inizio rapido](#inizio-rapido) |
@@ -135,7 +135,7 @@ Il link di download rileva il sistema e inizia l'installazione giusta.
 - **Lavoro per i clienti** — brief di riunioni, rapporti mensili sui clienti e aggiornamenti del template.[Modello di rapporto mensile dei clienti](https://orkas.ai/blog/monthly-client-report-template/?source=gh-orkas)
 - **Lancio del prodotto** — pagine di destinazione, correzioni dei bug con test, log di cambio e post di lancio.[Sviluppatori](https://orkas.ai/use/developers/?source=gh-orkas)
 - **Costruire un'app** — calcolatori di quote, moduli di prenotazione, strumenti interni.[Costruire app](https://orkas.ai/use/build-apps/?source=gh-orkas)
-- **Piccole squadre** —  un progetto per persone e agenti.[Piccole squadre](https://orkas.ai/use/small-teams/?source=gh-orkas)
+- **Piccole squadre** —   un progetto per persone e agenti.[Piccole squadre](https://orkas.ai/use/small-teams/?source=gh-orkas)
 
 ---
 
@@ -145,12 +145,12 @@ Il link di download rileva il sistema e inizia l'installazione giusta.
 | --- | --- | --- |
 | **Claude Code** | Lo strumento di codifica agentica di Anthropic      in terminal, IDE, desktop e web, costruito su modelli Claude. | Non sia o: Orkas gestisce Claude Code come uno dei suoi agenti. Attorno a esso, Orkas aggiunge un team di model-agnostici per il lavoro oltre il codice  ̇ ricerca, contenuti, video e altro ̇ con progetti, attività e automazioni che lo mantengono in movimento.[Orkas vs Claude Code →](https://orkas.ai/compare/orkas-vs-claude-code/?source=gh-orkas) |
 | **Codex** | L'agente di codifica di OpenAI è nel terminal, il tuo editor e il cloud. | Non sia o: Orkas gestisce il Codex come uno dei suoi agenti, accanto a Claude Code e OpenCode. Il comandante può consegnare la codifica al Codex e la revisione ad un altro agente, quindi coprire la metà non-codificata di un rilascio — doc, post di lancio e video.[Orcas contro il Codex](https://orkas.ai/compare/orkas-vs-codex/?source=gh-orkas) |
-| **Claude Cowork** | Agente di Anthropic per il lavoro quotidiano, ora parte di Claude — su desktop, web e mobile con un piano Claude a pagamento. | Un'alternativa open source (MIT) a Claude Cowork che è gratuita per iniziare, con 500 credits. Orkas esegue i suoi agenti sul tuo computer e mantiene i tuoi dati locali per impostazione predefinita, con il modello Orkas integrato, le tue chiavi del provider o un endpoint locale. Il comandante può anche portare in Claude Code, Codex e altri agenti CLI.[Claude Cowork alternative →](https://orkas.ai/compare/claude-cowork-alternatives/?source=gh-orkas) |
+| **Claude Cowork** | Agente di Anthropic per il lavoro quotidiano, ora parte di Claude — su desktop, web e mobile con un piano Claude a pagamento. | Un'alternativa open source (MIT) a Claude Cowork che è gratuita per iniziare, con 500 crediti. Orkas esegue i suoi agenti sul tuo computer e mantiene i tuoi dati locali per impostazione predefinita, con il modello Orkas integrato, le tue chiavi del provider o un endpoint locale. Il comandante può anche portare in Claude Code, Codex e altri agenti CLI.[Claude Cowork alternative →](https://orkas.ai/compare/claude-cowork-alternatives/?source=gh-orkas) |
 | **Manus** | Un agente AI che pianifica e esegue attività nel cloud di Manus per impostazione predefinita. | Un'alternativa open source (MIT) a Manus. Orkas esegue i suoi agenti sul computer e mantiene i tuoi dati locali per impostazione predefinita, con il modello Orkas integrato, le tue chiavi del provider o un endpoint locale. Progetti, attività da fare e automazioni mantengono il lavoro in movimento.[Alternativa Manus open source →](https://orkas.ai/open-source-manus-alternative/?source=gh-orkas) |
-| **La catena** | Un framework/libraeria per sviluppatori per la creazione di applicazioni e agenti LLM ̇ prima di tutto, incorporato nella propria applicazione Python/JS. | Orkas è un'app da desktop che si dirige attraverso la chat, non scrivendo codice di orchestrazione. |
+| **LangChain** | Framework per sviluppare applicazioni e agenti basati su LLM e integrarli via codice in applicazioni Python o JavaScript. | Orkas è un’app desktop che si controlla via chat. Per impostazione predefinita, i dati rimangono in locale. |
 | **CrewAI** | Un framework Python per orchestrare gli agenti autonomi di gioco di ruolo | Orkas porta l'orchestrazione multi-agente in un'app desktop, con progetti, compiti, automazioni e auto-miglioramento per agente integrato. |
 | **OpenClaw** | Una piattaforma per agenti personali con integrazioni di messaggistica, multi-agenti e sotto-agenti. | Orkas fornisce uno spazio di lavoro desktop per i prodotti finiti, con specialisti integrati e coordinazione su Claude Code, Codex, OpenCode e altri agenti CLI. |
-| **Hermes-Agent** | Agente di auto-miglioramento di Nous Research  un agente con memoria e competenze, disponibile come CLI, gateway di messaggistica e app desktop. | Orkas coordina una squadra: il comandante dirige molti specialisti e altri agenti CLI, e Hermes-Agent entra in gioco come uno di loro. |
+| **Hermes-Agent** | Agente di auto-miglioramento di Nous Research   un agente con memoria e competenze, disponibile come CLI, gateway di messaggistica e app desktop. | Orkas coordina una squadra: il comandante dirige molti specialisti e altri agenti CLI, e Hermes-Agent entra in gioco come uno di loro. |
 
 **Orkas è per te se** Vuoi un team di agenti piuttosto che un assistente, lavoro che continua a muoversi in giorni e i tuoi dati, chiavi e agenti sul tuo disco.
 
@@ -166,7 +166,7 @@ Il link di download rileva il sistema e inizia l'installazione giusta.
 
 Vuoi un'installazione confezionata?[Scaricare](#scaricare)Per eseguire da fonte      attualmente il modo per eseguire Orkas su Linux:
 
-**Requisiti**: Node 22.12+ · macOS / Windows 10+ / glibc 2.34+ Linux x64 o arm64.
+**Requisiti**: Node 22.12+ · macOS / Windows 10+ / Linux x64 o arm64 con glibc 2.34+. È consigliabile tenere a disposizione Python 3 e una toolchain C/C++ per i rari casi in cui occorre compilare moduli nativi dal codice sorgente.
 
 ```bash
 git clone https://github.com/Orkas-AI/Orkas.git
@@ -175,14 +175,14 @@ cd Orkas
 run.cmd            # Windows
 ```
 
-Le esecuzioni di sorgenti Linux richiedono glibc 2.34+. Alpine e altre distribuzioni basate su musl non sono supportate.
+Su Linux l’esecuzione dal codice sorgente richiede glibc 2.34 o successiva. Alpine e le altre distribuzioni basate su musl non sono supportate. Al primo avvio dal codice sorgente, Orkas scarica e verifica il runtime di whisper.cpp adatto all’architettura della macchina e il relativo modello multilingue per la trascrizione vocale in locale.
 
-`run.sh` / `run.cmd`installa l'albero di dipendenza npm bloccato e prepara il Python, uv, Node, modello di inserimento (~95 MB), OfficeCLI, FFmpeg, whisper.cpp e risorse del modello di parola multilingue al primo lancio. Il lancio Linux verifica quindi i moduli nativi della piattaforma e il tempo di esecuzione di Whisper sotto l'ABI di Electron prima di aprire l'app.`~/.orkas/`(macOS / Linux) o`<smallest non-system drive>:\.orkas\`Apri poi.**Impostazioni → Fornitori di AI** per aggiungere una API key o OAuth.
+`run.sh` / `run.cmd` installa l'albero di dipendenza npm bloccato e prepara il Python, uv, Node, modello di inserimento (~95 MB), OfficeCLI, FFmpeg, whisper.cpp e risorse del modello di parola multilingue al primo lancio. Il lancio Linux verifica quindi i moduli nativi della piattaforma e il tempo di esecuzione di Whisper sotto l'ABI di Electron prima di aprire l'app. I pacchetti Python per l’OCR e quelli specifici delle Skill vengono installati in ambienti locali isolati al primo utilizzo delle rispettive funzionalità. Al primo avvio viene creata un’area di lavoro in `~/.orkas/` (macOS / Linux) o `<smallest non-system drive>:\.orkas\` (Windows). Apri quindi **Impostazioni → Fornitori di AI** per configurare una chiave API o OAuth.
 
-Errori di dipendenza nativi: utilizzare Node.js 24 LTS (minimo 22.12.0), quindi eseguire
-`npm run native:repair`Questo ripristina i pacchetti opzionali,
-ripara SQLite per Electron, prepara un nodo bundled per il trattamento isolato delle immagini,
-e verifica SQL, sqlite-vec e sharp prima di avere successo.
+In caso di errori nelle dipendenze native, usa Node.js 24 LTS (versione minima: 22.12.0) ed esegui
+`npm run native:repair` da questa directory del codice sorgente. Il comando ripristina le dipendenze facoltative,
+ripara la build di SQLite per Electron e verifica SQL e sqlite-vec. Inoltre
+prepara il runtime Node incluso e verifica sharp in un processo separato prima di segnalare il completamento.
 Utilizzare`npm run native:check`per un controllo senza installazione.
 Vedi il[script di verifica della dipendenza nativa](./scripts/verify-native-dependencies.cjs)per i controlli effettuati.
 
@@ -210,7 +210,7 @@ Vedi ?[bilancio di contesto](./src/core-agent/src/agent/context-budget.ts), [sto
 
 Le note durevoli conservano le preferenze degli utenti, i fatti del progetto e le conoscenze riutilizzabili di ciascun agente in ambiti separati.
 
-La Biblioteca estraggere i documenti in passaggi e memorizzare un indice vettoriale locale SQLite.`library`Il programma di ricerca del progetto è stato sviluppato per l'utilizzo di un'ottica di ricerca e di una formazione di ricerca.`chat_history`.
+La libreria divide i documenti in paragrafi e crea un indice vettoriale SQLite locale. Il modello di embedding gira sul tuo computer. Gli agenti usano `library` per elencare i file, trovare i passaggi pertinenti e leggere le fonti nella libreria globale o in quella del progetto corrente. Per cercare nelle conversazioni precedenti si usa separatamente `chat_history`.
 
 Vedi ?[memoria a scopo](./src/main/features/memory.ts), [estrazione di documenti](./src/main/util/file_to_chunks.ts), [Strumenti di biblioteca](./src/main/model/core-agent/kb-tools.ts)e[Ritorno di conversazione](./src/main/model/core-agent/chat-history-tools.ts).
 
@@ -222,7 +222,7 @@ Vedi ?[Presse degli attori](./src/main/features/group_chat/actor-budgets.ts), il
 
 ### Imparare dall'attività
 
-Le revisioni di base esaminano le nuove attività degli agenti quando l'app è inattiva, soggette a riduzioni e limiti di esecuzione.`COMPETENCE.md`), metodi riutilizzabili (`LEARNING_STRATEGIES.md`Le recensioni dipendono da nuove attività piuttosto che dal numero di compiti e possono concludere che non vale la pena risparmiare nulla.
+La revisione in background esamina le nuove attività degli agenti quando l’app è inattiva, nel rispetto degli intervalli di attesa e dei limiti di esecuzione. Può aggiornare l’autovalutazione (`COMPETENCE.md`), i metodi riutilizzabili (`LEARNING_STRATEGIES.md`) o le competenze acquisite, oppure stabilire che non c’è nulla da salvare. Si basa sulle nuove attività, non sul numero di compiti completati.
 
 Vedi il[programmazione di riflessione](./src/main/features/reflection-orchestrator.ts)e[Pronto di revisione](./src/core-agent/src/evolution/metacognition.ts).
 
@@ -231,46 +231,46 @@ Vedi il[programmazione di riflessione](./src/main/features/reflection-orchestrat
 ## FAQ
 
 **Cos'è Orkas?**
-Orkas è un'app desktop open source (MIT), locale-prima multi-agente. Il suo comandante trasforma il tuo obiettivo in to-dos e coordina 16 agenti specializzati integrati ¢ più Claude Code, Codex, OpenCode, OpenClaw e Hermes-Agent ¢ per consegnare file finiti.
+Orkas è un'app desktop open source (MIT), locale-prima multi-agente. Il suo comandante trasforma il tuo obiettivo in to-dos e coordina 16 agenti specializzati integrati  più Claude Code, Codex, OpenCode, OpenClaw e Hermes-Agent  per consegnare file finiti.
 
 **Mi serve una API key?**
-No. L'app confezionata è dotata di 500 credits per il modello Orkas integrato. Dopo di che, acquistare crediti, scegliere un piano a pagamento o aggiungere le proprie chiavi del fornitore; le spese del fornitore sono separate.
+No. L'app confezionata è dotata di 500 crediti per il modello Orkas integrato. Dopo di che, acquistare crediti, scegliere un piano a pagamento o aggiungere le proprie chiavi del fornitore; le spese del fornitore sono separate.
 
-**Orkas è un master locale?**
-No. Orkas funziona sulla tua macchina e chiama i modelli che scegli il modello Orkas integrato, le tue chiavi API o un endpoint del modello locale.
+**Orkas è un modello linguistico di grandi dimensioni (LLM) che gira in locale?**
+No. Orkas gira sul tuo computer e chiama il modello che scegli: quello integrato di Orkas, un modello collegato con la tua chiave API o un modello disponibile tramite un endpoint locale. Coordina agenti e strumenti, ma non è un modello.
 
 **Gli Orkas possono rispondere alle mie domande con citazioni?**
 Si. Aggiungi PDF e documenti alla tua biblioteca locale; Orkas può cercare e rispondere con citazioni ai passaggi sorgenti, così puoi aprire l'originale e controllare.
 
 **Posso usare modelli locali come Ollama o LM Studio?**
-Si', aperta.**Impostazioni di account → Modelli → Chat → Aggiungere modello → Custom**, selezionare** Compatibile con OpenAI**o** Compatibile con l'antropia**, e inserire l'URL di base, ID esatto del modello, e API key. Scegliere il modello salvato dal controllo modello del compito.
+Sì. Apri **Impostazioni account → Modelli → Chat → Aggiungi modello → Personalizzato** e scegli **Compatibile con OpenAI** o **Compatibile con Anthropic**. Inserisci l’URL di base, l’ID esatto del modello e la chiave API. Poi scegli il modello salvato nel selettore dell’attività.
 
 **Dove sono memorizzati i miei codici API e i miei dati?**
-Il modello di chiamata viene inviato direttamente dal computer al provider; il modello Orkas integrato utilizza il servizio gestito da Orkas.[Sicurezza e gestione dei dati →](https://orkas.ai/security/?source=gh-orkas)
+Per impostazione predefinita, i dati e le chiavi sono salvati sul tuo computer. Le chiavi dei tuoi fornitori sono cifrate in locale ed escluse dalla sincronizzazione nel cloud. Se usi la tua chiave, le richieste vanno direttamente dal tuo computer al fornitore. Il modello integrato usa il servizio gestito da Orkas. Nella versione installabile, se usi la sincronizzazione facoltativa nel cloud o i progetti condivisi, i dati selezionati sono salvati sui server di Orkas. [Sicurezza e trattamento dei dati →](https://orkas.ai/security/?source=gh-orkas)
 
 **Le Orkas funzionano offline?**
-L'app di pacchetto deve accedere e i modelli cloud devono avere una connessione a rete.
+La versione eseguita dal codice sorgente può funzionare completamente offline con un endpoint locale del modello. La versione installabile richiede l’accesso a un account; le chiamate ai modelli cloud richiedono una connessione a Internet.
 
 **Continua a funzionare quando il mio computer è spento?**
-No      Orkas esegue sul computer, quindi Auto-advance e automazioni hanno bisogno del computer sveglio e Orkas in esecuzione.
+No. L’avanzamento automatico e le automazioni richiedono che il computer sia attivo e che Orkas sia in esecuzione. Dalla versione 1.9, quando il computer si riattiva o Orkas si avvia, ogni automazione recupera solo l’esecuzione saltata più recente delle ultime 12 ore.
 
 **Posso creare e pubblicare app?**
 Le app locali che funzionano all'interno di Orkas sono gratuite. Pubblicare un'app web a un link pubblico richiede un piano a pagamento (Lite 5, Pro 8, Max 15 app), e le app web pubblicate non includono tutte le funzionalità disponibili all'interno di orkas.
 
 **Mi serve un conto Orka?**
-L'app desktop confezionata ti chiede di accedere quando la lanci per la prima volta.
+La versione installabile richiede l’accesso al primo avvio. La versione eseguita dal codice sorgente di questo repository non include un modulo per gli account e apre direttamente l’app.
 
 **Le Orkas possono drivere Claude Code e altri agenti della CLI?**
 Orkas può drivere cinque agenti esterni di CLI come sottoprocessi locali ∙ gli agenti di codifica Claude Code, Codex e OpenCode, oltre agli agenti personali OpenClaw e Hermes-Agent ∙ e a bordo di progetti open source come HyperFrames, tutti diretti dalla stessa chat.
 
 **In che modo Orkas è diverso da Claude Code / Codex / CrewAI / LangChain?**
-Claude Code e Codex sono agenti di codifica — Orkas funziona sia come membri del suo team, quindi non è necessario scegliere tra loro; CrewAI e LangChain sono frameworks di codice-prima. Orkas è un'app desktop open source in cui un comandante coordina un team di agenti specializzati e i tuoi agenti CLI, con qualsiasi fornitore di modelli, e mantiene dati e chiavi locali.[Confrontazioni complete](https://orkas.ai/compare/?source=gh-orkas).
+Claude Code e Codex sono agenti di programmazione: Orkas può farli lavorare entrambi nello stesso team, senza dover scegliere tra i due. CrewAI e LangChain sono framework incentrati sul codice. Orkas è un’app desktop open source in cui il Commander coordina gli agenti specializzati e gli agenti CLI. Puoi scegliere tra diversi fornitori di modelli. Per impostazione predefinita, dati e chiavi sono conservati in locale. [Vedi il confronto completo](https://orkas.ai/compare/?source=gh-orkas)
 
 **Quali piattaforme supportano Orkas?**
-macOS 12+ (Apple Silicon e Intel) e Windows 10+ hanno installati pacchetti. glibc 2.34+ Linux x64/arm64 funziona da fonte oggi, senza ancora installare. La trascrizione locale di voce è supportata su Linux attraverso il programma di esecuzione pinched whisper.cpp preparato al primo lancio. Alpine e altre distribuzioni basate su musl non sono supportate. Il bootstrap sorgente ha bisogno di Node 22.12+; Python 3 e un C / C ++ buildchain strumento sono necessari solo quando un pacchetto npm nativo non ha un binario preconfigurato compatibile e deve essere ricostruito localmente.
+Sono disponibili programmi di installazione per macOS 12+ (Apple Silicon e Intel) e Windows 10+. Su Linux x64/arm64 con glibc 2.34 o successiva, Orkas si esegue dal codice sorgente: non c’è ancora un programma di installazione. Al primo avvio Orkas prepara una versione fissa del runtime di whisper.cpp per la trascrizione vocale locale. Alpine e le altre distribuzioni basate su musl non sono supportate. L’avvio dal codice sorgente richiede Node 22.12 o successivo; Python 3 e la toolchain C/C++ servono solo se un pacchetto npm nativo non ha un binario precompilato compatibile e deve essere ricompilato in locale.
 
 **Orkas è gratuita e open source?**
-Sì — l'app è con licenza MIT e gratuita. L'app confezionata include 500 credits per il modello Orkas integrato; piani a pagamento da $ 11,99 / mese aggiungono crediti mensili, sincronizzazione cloud, progetti più condivisi e pubblicazione di app. Con le tue chiavi, l'utilizzo del modello viene fatturato dal tuo fornitore; Orkas non aggiunge un markup.[Prezzi →](https://orkas.ai/pricing/?source=gh-orkas)
+Sì — l'app è con licenza MIT e gratuita. L'app confezionata include 500 crediti per il modello Orkas integrato; piani a pagamento da $ 11,99 / mese aggiungono crediti mensili, sincronizzazione cloud, progetti più condivisi e pubblicazione di app. Con le tue chiavi, l'utilizzo del modello viene fatturato dal tuo fornitore; Orkas non aggiunge un markup.[Prezzi →](https://orkas.ai/pricing/?source=gh-orkas)
 
 ---
 
